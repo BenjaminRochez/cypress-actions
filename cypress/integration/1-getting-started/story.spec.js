@@ -1,4 +1,4 @@
-Cypress.config("defaultCommandTimeout", 10000);
+Cypress.config("defaultCommandTimeout", 12000);
 import { v4 as uuidv4 } from "uuid";
 
 describe("My First Test", () => {
