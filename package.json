@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/BenjaminRochez/cypress-actions#readme",
   "dependencies": {
-    "cypress": "^9.1.0"
+    "cypress": "^9.1.0",
+    "uuid": "8.3.2"
   }
 }

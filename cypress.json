@@ -1,1 +1,11 @@
-{}
+{
+    "projectId": "9igbfv",
+    "viewportWidth": 1280,
+    "viewportHeight": 1024,
+    "experimentalStudio": true,
+    "env": {
+        "LOGIN_URL": "https://sandboxcs.elium.com/login/regular/login",
+        "SANDBOX_URL": "https://sandboxcs.elium.com?kp4=review/cypress-poc",
+        "USER_EMAIL": "cypress@whatever-company.com"
+    }
+}
