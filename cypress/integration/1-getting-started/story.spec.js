@@ -9,7 +9,7 @@ describe("My First Test", () => {
     cy.visit(Cypress.env("LOGIN_URL"));
 
     cy.get('input[name="login"]').type(Cypress.env("USER_EMAIL"));
-    cy.get('input[name="password"]').type(Cypress.env("CYPRESS_PSW"));
+    cy.get('input[name="password"]').type(Cypress.env("PSW"));
     cy.get('input[name="login_submit"]').click();
     cy.visit(Cypress.env("SANDBOX_URL"));
   });
