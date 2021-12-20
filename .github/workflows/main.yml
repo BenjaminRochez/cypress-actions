@@ -27,7 +27,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           record: true
-          working-directory: e2e
+          working-directory: cypress
         env:
           CYPRESS_PSW: ${{ secrets.CYPRESS_PSW }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
