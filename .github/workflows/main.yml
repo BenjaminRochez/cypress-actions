@@ -15,7 +15,7 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
-          path: ~/.npm
+          path: ~/cypress/.npm
           key: npm-${{ hashFiles('package-lock.json') }}
           restore-keys: npm-
 
@@ -27,6 +27,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           record: true
+          working-directory: e2e
         env:
           CYPRESS_PSW: ${{ secrets.CYPRESS_PSW }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
